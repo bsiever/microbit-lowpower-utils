@@ -1,6 +1,6 @@
 {
     "name": "microbit-lowpower-utils",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Sleep / low power for the micro:bit V2: configurable wake-up (buttons, any pin), wake reason, sleep watchdog, and Bluetooth-aware sleep.",
     "license": "MIT",
     "dependencies": {

@@ -347,7 +347,7 @@ namespace lowPower {
      * after waking so the paired device can reconnect.
      * "stay awake" skips the sleep.
      */
-    //% block="if bluetooth connected when sleeping: $policy"
+    //% block="set bluetooth sleep mode to $policy"
     //% group="Bluetooth" weight=100
     export function setBluetoothSleepPolicy(policy: BluetoothSleepPolicy): void {
         _setBluetoothPolicy(policy)
