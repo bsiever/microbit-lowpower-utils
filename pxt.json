@@ -1,0 +1,31 @@
+{
+    "name": "microbit-lowpower-utils",
+    "version": "0.1.0",
+    "description": "Sleep / low power for the micro:bit V2: configurable wake-up (buttons, any pin), wake reason, sleep watchdog, and Bluetooth-aware sleep.",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "lowpower.ts",
+        "lowpower.cpp",
+        "shims.d.ts",
+        "enums.d.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "targetVersions": {
+        "target": "9.1.2",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj",
+    "authors": [
+        "Bill Siever <bsiever@gmail.com>"
+    ]
+}
